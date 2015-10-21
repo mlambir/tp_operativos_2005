@@ -1,0 +1,323 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+BACKLOG	cde.c	24;"	d	file:
+DatosMigrar	equipobib.h	/^struct DatosMigrar$/;"	s
+ENTER	cdeCurs.c	5;"	d	file:
+ENTER	ciudadCurs.c	7;"	d	file:
+ENTER	ciudadCurs.h	1;"	d
+ESCAPE	cdeCurs.c	6;"	d	file:
+ESCAPE	ciudadCurs.c	8;"	d	file:
+ESCAPE	ciudadCurs.h	2;"	d
+ESTADOdesconectado	ciudadBib.h	/^	ESTADOdesconectado$/;"	e	enum:eEstado
+ESTADOlibre	ciudadBib.h	/^	ESTADOlibre,$/;"	e	enum:eEstado
+ESTADOmigrado	ciudadBib.h	/^	ESTADOmigrado,$/;"	e	enum:eEstado
+ESTADOocupado	ciudadBib.h	/^	ESTADOocupado,$/;"	e	enum:eEstado
+ESTADOvacio	ciudadBib.h	/^	ESTADOvacio = 0,$/;"	e	enum:eEstado
+MSCiu	routerBib.h	/^enum MSCiu$/;"	g
+MSDT	routerBib.h	/^	MSDT = 0,$/;"	e	enum:MSCiu
+MSDatos	routerBib.h	/^	MSDatos=3,$/;"	e	enum:MSRu
+MSDatosEquipo	ciudadBib.h	/^	MSDatosEquipo,$/;"	e	enum:eMensajes
+MSDesconectado	ciudadBib.h	/^	MSDesconectado = 0,$/;"	e	enum:eMensajes
+MSDesconectadoC	routerBib.h	/^	MSDesconectadoC,$/;"	e	enum:MSCiu
+MSDesconectadoR	ciudadBib.h	/^	MSDesconectadoR = 0,$/;"	e	enum:eMensajesRouter
+MSDesconectadoR	routerBib.h	/^	MSDesconectadoR$/;"	e	enum:MSRu
+MSDiscover	routerBib.h	/^	MSDiscover=0, $/;"	e	enum:MSRu
+MSEPregunta	ciudadBib.h	/^	MSEPregunta$/;"	e	enum:eMensajesRouter
+MSEncontrado	routerBib.h	/^	MSEncontrado,$/;"	e	enum:MSCiu
+MSFound	ciudadBib.h	/^	MSFound,$/;"	e	enum:eMensajesRouter
+MSFound	routerBib.h	/^	MSFound=1, $/;"	e	enum:MSRu
+MSLEVE	ciudadBib.h	/^	MSLEVE,$/;"	e	enum:eMensajes
+MSLEVI	ciudadBib.h	/^	MSLEVI,$/;"	e	enum:eMensajes
+MSLibre	ciudadBib.h	/^	MSLibre,$/;"	e	enum:eMensajes
+MSMigracion	ciudadBib.h	/^	MSMigracion,$/;"	e	enum:eMensajes
+MSNoEncontrado	routerBib.h	/^	MSNoEncontrado$/;"	e	enum:MSCiu
+MSNotFound	ciudadBib.h	/^	MSNotFound,$/;"	e	enum:eMensajesRouter
+MSNotFound	routerBib.h	/^	MSNotFound=2,$/;"	e	enum:MSRu
+MSOcupado	ciudadBib.h	/^	MSOcupado,$/;"	e	enum:eMensajes
+MSPedido	routerBib.h	/^	MSPedido,$/;"	e	enum:MSCiu
+MSPedidoDtMigracion	ciudadBib.h	/^	MSPedidoDtMigracion$/;"	e	enum:eMensajes
+MSPedidoEntrenamiento	ciudadBib.h	/^	MSPedidoEntrenamiento,$/;"	e	enum:eMensajes
+MSPedidoPartido	ciudadBib.h	/^	MSPedidoPartido,$/;"	e	enum:eMensajes
+MSRu	routerBib.h	/^enum MSRu$/;"	g
+MSTDP	ciudadBib.h	/^	MSTDP,$/;"	e	enum:eMensajesRouter
+MSTDP	routerBib.h	/^	MSTDP,$/;"	e	enum:MSCiu
+STDIN	cde.c	25;"	d	file:
+STDIN	equipo.c	21;"	d	file:
+STDIN	equipobib.c	20;"	d	file:
+STDIN	equipobib.h	11;"	d
+STDIN	router.c	15;"	d	file:
+TLAdvertencia	logs.h	/^    TLAdvertencia,$/;"	e	enum:eTiposLog
+TLError	logs.h	/^    TLError,$/;"	e	enum:eTiposLog
+TLInformacion	logs.h	/^    TLInformacion,$/;"	e	enum:eTiposLog
+TLMensaje	logs.h	/^    TLMensaje$/;"	e	enum:eTiposLog
+agregarTexto	ciudadCurs.c	/^void agregarTexto(char * texto)$/;"	f
+cabecera	cde.c	/^	char cabecera [3];$/;"	m	struct:mjeTiempo	file:
+cabecera	equipobib.h	/^	char cabecera [3];$/;"	m	struct:mjeIpPuerto
+cabecera	equipobib.h	/^	char cabecera [3];$/;"	m	struct:mjeTiempo
+cerrar_curses	cdeCurs.c	/^void cerrar_curses(void)$/;"	f
+cerrar_curses	ciudadCurs.c	/^void cerrar_curses(void)$/;"	f
+ciudad	ciudadBib.h	/^	char *ciudad;$/;"	m	struct:sTDP
+ciudad	routerBib.h	/^	char *ciudad;$/;"	m	struct:sTDP
+clrscr	cdeCurs.c	/^void clrscr(void)                $/;"	f
+clrscr	ciudadCurs.c	/^void clrscr(void)                $/;"	f
+cola	ciudadBib.h	/^	struct sEquipoCola *cola;$/;"	m	struct:sEquipo
+compararVector	routerBib.c	/^int compararVector(char * vec1, char * vec2, int tam)$/;"	f
+contar	equipobib.c	/^int contar(char * string, char caracter, int cantidad)$/;"	f
+cpDatos	ciudadBib.h	/^	char * cpDatos;$/;"	m	struct:sMigracion
+cpIpCiudad	equipobib.h	/^	char cpIpCiudad[16];$/;"	m	struct:DatosMigrar
+cpIpPuerto	routerBib.h	/^	char cpIpPuerto[6];$/;"	m	struct:sRouter
+cpMiIp	equipobib.h	/^	char cpMiIp[16];$/;"	m	struct:DatosMigrar
+cpNombreArchivoLogs	logs.c	/^char cpNombreArchivoLogs[1024];$/;"	v
+cpNombreCiudad	equipobib.h	/^	char * cpNombreCiudad;$/;"	m	struct:lLevInt
+cpNombreCiudad	routerBib.h	/^	char * cpNombreCiudad;$/;"	m	struct:sDiscover
+cpNombreEquipo	equipobib.h	/^	char * cpNombreEquipo;$/;"	m	struct:lLevInt
+cpNombreEquipo	routerBib.h	/^	char * cpNombreEquipo;$/;"	m	struct:sDiscover
+cpNombreProceso	logs.c	/^char cpNombreProceso[1024];$/;"	v
+eEstado	ciudadBib.h	/^enum eEstado$/;"	g
+eMensajes	ciudadBib.h	/^enum eMensajes$/;"	g
+eMensajesRouter	ciudadBib.h	/^enum eMensajesRouter$/;"	g
+eTiposLog	logs.h	/^enum eTiposLog$/;"	g
+estado	ciudadBib.h	/^	int estado;$/;"	m	struct:sEquipo
+fcEquMayusculas	equipobib.c	/^char* fcEquMayusculas(char string[]) \/*recibe un char* y lo devuelve convertido a mayusculas*\/$/;"	f
+fcpStdbibMayusculas	cde.c	/^char* fcpStdbibMayusculas(char cpCadena[])$/;"	f
+fiCDEbibTomarConfiguracion	cde.c	/^int fiCDEbibTomarConfiguracion (char* cpArch, char* cpIp, int * ipPuerto)$/;"	f
+fiCIURecibirTDPRouter	ciudadBib.c	/^int fiCIURecibirTDPRouter(int iSocket, struct sTDP ** lista, struct sEquipo * listaEquipos, char * nombreCiudad)$/;"	f
+fiCdeRecibirTiempo	cde.c	/^int fiCdeRecibirTiempo(int iSockfd)$/;"	f
+fiCiuAgregarDatosEquipo	ciudadBib.c	/^int fiCiuAgregarDatosEquipo (struct sEquipo **lsEquipos, char *cpNombre, int *ipIpPuerto, int iSocket,fd_set * maestro)$/;"	f
+fiCiuAgregarEquipoInicial	ciudadBib.c	/^int fiCiuAgregarEquipoInicial (struct sEquipo **lsEquipos, int socket)$/;"	f
+fiCiuBuscarEquipoNombre	ciudadBib.c	/^struct sEquipo * fiCiuBuscarEquipoNombre (struct sEquipo *lista, char *cpNombre)$/;"	f
+fiCiuBuscarEquipoSocket	ciudadBib.c	/^struct sEquipo * fiCiuBuscarEquipoSocket (struct sEquipo *lista, int iSocket)$/;"	f
+fiCiuCompleta	ciudadBib.c	/^int fiCiuCompleta(struct sEquipo * lista)$/;"	f
+fiCiuEnviarDT	ciudadBib.c	/^int fiCiuEnviarDT(int iSockRouter,char * nombreCiudad)$/;"	f
+fiCiuEnviarLEVExternaEquipo	ciudadBib.c	/^int fiCiuEnviarLEVExternaEquipo(int iSock, char * nombreEquipo, char * nombreCiudad, struct sTDP* sTabla, struct sEquipo * lista)$/;"	f
+fiCiuEnviarLEVInternaEquipo	ciudadBib.c	/^int fiCiuEnviarLEVInternaEquipo(int iSock, char * nombreEquipo, char * nombreCiudad, struct sTDP* sTabla, struct sEquipo * lista)$/;"	f
+fiCiuEnviarLevExternaTodos	ciudadBib.c	/^int fiCiuEnviarLevExternaTodos(char * nombreCiudad, struct sTDP* sTabla, struct sEquipo * lista)$/;"	f
+fiCiuEnviarTDPRouter	ciudadBib.c	/^int fiCiuEnviarTDPRouter(int iSock,struct sTDP** sTabla)$/;"	f
+fiCiuEstaEnTDP	ciudadBib.c	/^int fiCiuEstaEnTDP (struct sTDP *lista, char *cpNombre)$/;"	f
+fiCiuLimpiarListaEquipos	ciudadBib.c	/^int fiCiuLimpiarListaEquipos(struct sEquipo ** sListaE)$/;"	f
+fiCiuManejarMensajeFound	ciudadBib.c	/^int fiCiuManejarMensajeFound(int iSockRouter, struct sDiscover ** sListaDiscovers, char cTipo)$/;"	f
+fiCiuManejarMensajeLibre	ciudadBib.c	/^int fiCiuManejarMensajeLibre(int iSock, struct sEquipo * lista)$/;"	f
+fiCiuManejarMigracion	ciudadBib.c	/^int fiCiuManejarMigracion(int iSock, struct sMigracion **sMigracion, char * cpIp, char * cpPuerto, char * cpNombreExecEquipo)$/;"	f
+fiCiuManejarPedidoEntrenamiento	ciudadBib.c	/^int fiCiuManejarPedidoEntrenamiento(int iSock, char * mensajePE)$/;"	f
+fiCiuManejarPedidoPermiso	ciudadBib.c	/^int fiCiuManejarPedidoPermiso (int iSock, struct sEquipo  *lista, char cTipoLev, int iSockRouter, struct sDiscover ** listaDiscover, char * cpMiNombre)$/;"	f
+fiCiuManejarPregunta	ciudadBib.c	/^int fiCiuManejarPregunta(int iSockRouter,struct sEquipo * sListaEquipos,char * cpIp, int iPuerto)$/;"	f
+fiCiuProcesarLEV	ciudadBib.c	/^fiCiuProcesarLEV (struct sTDP *tabla, int iSocket, char *cpEquipoLocal, char * cpCiudadLocal)$/;"	f
+fiCiuRecibirCabeceraEquipo	ciudadBib.c	/^int fiCiuRecibirCabeceraEquipo (int iSocket)$/;"	f
+fiCiuRecibirCabeceraRouter	ciudadBib.c	/^int fiCiuRecibirCabeceraRouter(int iSocket)$/;"	f
+fiCiuSacarEquipoColas	ciudadBib.c	/^void fiCiuSacarEquipoColas(int iSock, struct sEquipo * lista)$/;"	f
+fiCiuSacarEquipoLista	ciudadBib.c	/^void fiCiuSacarEquipoLista(int iSock, struct sEquipo ** lista)$/;"	f
+fiEnviarFound	routerBib.c	/^int fiEnviarFound(int iSocket,char * iIdentificador,char ttl,char hops,char * cpNombreCiudad,char * cpNombreEquipo,char *cpIpPuerto)$/;"	f
+fiEnviarNotFound	routerBib.c	/^int fiEnviarNotFound(int iSocket,char * iIdentificador,char ttl,char hops,char * cpNombreCiudad,char * cpNombreEquipo)$/;"	f
+fiEquAceptoEquipo	equipobib.c	/^int fiEquAceptoEquipo(int iSocket)$/;"	f
+fiEquAgregarALista	equipobib.c	/^int fiEquAgregarALista(struct lLevInt * nodo , struct lLevInt ** lLevInt)$/;"	f
+fiEquAsignarTiempo	equipobib.c	/^int fiEquAsignarTiempo(int iCansancio, int iMaxCansancio, int iTiempo)$/;"	f
+fiEquAvisarTiempoCde	equipobib.c	/^int fiEquAvisarTiempoCde( int iSocket, int tTiempo, char *cpMiNombre)$/;"	f
+fiEquCalcularResultado	equipobib.c	/^int fiEquCalcularResultado()$/;"	f
+fiEquCalculoCansancio	equipobib.c	/^int fiEquCalculoCansancio(int iEstadoCde, int iCansancio, struct timeval tv,int tvMax)$/;"	f
+fiEquCansancio	equipobib.c	/^int fiEquCansancio(void)$/;"	f
+fiEquConectar	equipobib.c	/^int fiEquConectar(char* cpIp, int iPuerto)$/;"	f
+fiEquDescansarTotalmente	equipobib.c	/^int fiEquDescansarTotalmente(int iSocketCiudad,int * iCansancio, int iCansancioMax,int tTiempoMaxCansado, char * cpMiNombre)$/;"	f
+fiEquEnviarDatos	equipobib.c	/^int fiEquEnviarDatos(int iSocketCiudad,char *cpMiIp,int iMiPuerto,char * cpMiNombre)$/;"	f
+fiEquEnviarMigracion	equipobib.c	/^int fiEquEnviarMigracion(int iSocketCiudad,struct lLevInt * lLevExt,struct DatosMigrar sDatos,char * cpMiNombre)$/;"	f
+fiEquEnviarResultados	equipobib.c	/^int fiEquEnviarResultados(int iSocketCiudad,struct lLevInt ** lLevInt,int iCant,char * cpTipo)$/;"	f
+fiEquEscucharAEquipos	equipobib.c	/^int fiEquEscucharAEquipos(struct sockaddr * miDir)$/;"	f
+fiEquHandShake	equipobib.c	/^int fiEquHandShake(int iSocket)$/;"	f
+fiEquJugarLevE	equipobib.c	/^int fiEquJugarLevE(int iSocketCiudad,struct lLevInt ** lLevExt,int tDurPartido,int * iCansancio,int iCansancioMax,int tTiempoMaxCansado,int iMaxTiempo,char * cpMiIp,int iMiPuerto,char *cpIpMiCiudad,int iMiPuertoCiudad,char * cpMiNombre,char * cpIpCiuActual,int iPuertoCiuActual)$/;"	f
+fiEquJugarLevI	equipobib.c	/^int fiEquJugarLevI(struct lLevInt * lLevInt, int tDurPartido,int * iCansancio,int iCansancioMax, int iSocketCiudad,int tTiempoMaxCansado, char * cpMiNombre)$/;"	f
+fiEquManejarMigracion	equipobib.c	/^struct DatosMigrar fiEquManejarMigracion(int iSocket, char *cpIp, int iPuerto, char ** cpMiNombre,struct lLevInt ** lLevExt,int * iCant)$/;"	f
+fiEquPedidoDeCde	equipobib.c	/^int fiEquPedidoDeCde(int iSocket)$/;"	f
+fiEquPedidoDeCdeLI	equipobib.c	/^int fiEquPedidoDeCdeLI(int iSocket,char * cpIpCde, int * iPuertoCde)$/;"	f
+fiEquPermisoJugar	equipobib.c	/^int fiEquPermisoJugar(int iSocketCiudad,char * nombreCiudad,char * nombreEquipo,char * cpIpEquipo,int * iPuertoEquipo)$/;"	f
+fiEquPuedoJugar	equipobib.c	/^int fiEquPuedoJugar(int iEstadoCde, int * iCansancio,int iMaxCansancio, struct timeval tv, int tvMax,int iEsperando)$/;"	f
+fiEquRecibirLevE	equipobib.c	/^int fiEquRecibirLevE(int iSocketCiudad,struct lLevInt ** lLevExt)$/;"	f
+fiEquRecibirLevI	equipobib.c	/^int fiEquRecibirLevI(int iSocketCiudad,struct lLevInt ** lLevInt)$/;"	f
+fiEquReciboCabecera	equipobib.c	/^int fiEquReciboCabecera(int iSocket)$/;"	f
+fiEquReciboMensajeCde	equipobib.c	/^int fiEquReciboMensajeCde(int iSocket)$/;"	f
+fiEquReciboRespuesta	equipobib.c	/^int fiEquReciboRespuesta(int iSocketCiudad,char *cpIpEquipo, int * iPuertoEquipo)$/;"	f
+fiEquReciboRespuestaCde	equipobib.c	/^int fiEquReciboRespuestaCde(int iSocketCde)$/;"	f
+fiEquReciboRtaHS	equipobib.c	/^int fiEquReciboRtaHS(int iSocket)$/;"	f
+fiEquRtaCiudadLibre	equipobib.c	/^int fiEquRtaCiudadLibre(int iSocket, char * cpIp, int iPuerto)$/;"	f
+fiEquRtaCiudadOcupado	equipobib.c	/^int fiEquRtaCiudadOcupado(int iSocket)$/;"	f
+fiEquRtaEntrenamiento	equipobib.c	/^int fiEquRtaEntrenamiento(int iSocket, char * cpIp, int *iPuerto)$/;"	f
+fiEquRtaEntrenamientoLI	equipobib.c	/^int fiEquRtaEntrenamientoLI(int iSocket, char * cpIp, int *iPuerto)$/;"	f
+fiEquSacarEquipoLev	equipobib.c	/^void fiEquSacarEquipoLev(struct lLevInt ** lista,char * cpNombreCiudad, char * cpNombreEquipo)$/;"	f
+fiRouAgregarRouter	routerBib.c	/^int fiRouAgregarRouter(struct sRouter ** sListaRout, int socket)$/;"	f
+fiRouBuscarCiudadIPPuerto	routerBib.c	/^struct sCiudad * fiRouBuscarCiudadIPPuerto(struct sCiudad * sListaC, char * cpIpPuerto)$/;"	f
+fiRouBuscarCiudadOrden	routerBib.c	/^struct sCiudad * fiRouBuscarCiudadOrden(struct sCiudad * sListaC, int orden)$/;"	f
+fiRouBuscarDiscoverID	routerBib.c	/^struct sDiscover * fiRouBuscarDiscoverID(struct sDiscover *lista, char * cpId)$/;"	f
+fiRouBuscarRouterSocket	routerBib.c	/^struct sRouter * fiRouBuscarRouterSocket(sRouter * lista, int socket)$/;"	f
+fiRouCompletarToken	routerBib.c	/^int fiRouCompletarToken(struct sCiudad ** sListaC, struct sRouter * sListaR)$/;"	f
+fiRouConectar	routerBib.c	/^int fiRouConectar(char* cpIpPuerto)$/;"	f
+fiRouConectarProximoRouter	routerBib.c	/^int fiRouConectarProximoRouter(struct sCiudad ** sListaC, char * cpMiIpPuerto,struct sTDP ** sListaT)$/;"	f
+fiRouEnviarDiscovers	routerBib.c	/^int fiRouEnviarDiscovers( int iSockRecibido,struct sRouter * sListaR, char ttl,char hops ,char * cpNombreCiu, char * cpNombreEqui ,char * cpID)$/;"	f
+fiRouEnviarFoundCiudad	routerBib.c	/^int fiRouEnviarFoundCiudad(int iSockCiudad,char *cpNombreCiudad,char *cpNombreEquipo,char *cpIpPuerto)$/;"	f
+fiRouEnviarNotFoundCiudad	routerBib.c	/^int fiRouEnviarNotFoundCiudad(int iSockCiudad,char *cpNombreCiudad,char *cpNombreEquipo)$/;"	f
+fiRouEnviarTDP	routerBib.c	/^int fiRouEnviarTDP(int iSock,struct sTDP** sTabla)$/;"	f
+fiRouEnviarTokenProximoRouter	routerBib.c	/^int fiRouEnviarTokenProximoRouter(struct sRouter ** sListaR,char * cpID,struct sTDP ** sListaT,struct sCiudad ** sListaC, char * cpMiIpPuerto)$/;"	f
+fiRouLimpiarLista	routerBib.c	/^int fiRouLimpiarLista(struct sDiscover ** sListaD,char *cpNombreCiudad,char *cpNombreEquipo)$/;"	f
+fiRouLimpiarListaTiempo	routerBib.c	/^int fiRouLimpiarListaTiempo(int iSocket,struct sDiscover ** sListaD, int tiempoBorrar)$/;"	f
+fiRouManejarDiscover	routerBib.c	/^int fiRouManejarDiscover(int iSocket,struct sDiscover** sListaD,struct sRouter * sListaR, char * cpNombreCiu, int iSockCiudad, char * cpID, char ttl, char hops, int iLargoMensaje)$/;"	f
+fiRouManejarEncontrado	routerBib.c	/^int fiRouManejarEncontrado(int iSocket,struct sDiscover ** sListaD,char * cpNombreCiudad)$/;"	f
+fiRouManejarNoEncontrado	routerBib.c	/^int fiRouManejarNoEncontrado(int iSocket,struct sDiscover ** sListaD, char * cpNombreCiudad)$/;"	f
+fiRouPrintfIP	equipobib.c	/^int fiRouPrintfIP(char * ipPuerto, char * ip, int * puerto)$/;"	f
+fiRouPrintfIP	routerBib.c	/^int fiRouPrintfIP(char * ipPuerto, char * ip, int * puerto)$/;"	f
+fiRouRecibirCabeceraCiudad	routerBib.c	/^int fiRouRecibirCabeceraCiudad(int iSock)$/;"	f
+fiRouRecibirCabeceraRouter	routerBib.c	/^int fiRouRecibirCabeceraRouter(int iSock, char * identificador, char * ttl, char * hops, int * largoMensaje)$/;"	f
+fiRouRecibirDatosCiudad	routerBib.c	/^void  fiRouRecibirDatosCiudad(int iSockCiudad, char ** cpNombre)$/;"	f
+fiRouRecibirDiscoverC	routerBib.c	/^int fiRouRecibirDiscoverC(int iSocket,char * cpMensajeFD)$/;"	f
+fiRouRecibirPedido	routerBib.c	/^int fiRouRecibirPedido(int iSocket,struct sDiscover ** sListaD, struct sRouter * sListaR,char ttlIni) $/;"	f
+fiRouRecibirTDP	routerBib.c	/^int fiRouRecibirTDP(int iSocket, struct sTDP ** lista)$/;"	f
+fiRouRecibirToken	routerBib.c	/^int fiRouRecibirToken(int iSocket, char * cpID, struct sTDP ** sListaTDP, struct sCiudad ** sListaC, struct sRouter * sListaR, char * cpIpPuertoTok, char *cpNombreCiu)$/;"	f
+fiRouSacarListas	routerBib.c	/^int fiRouSacarListas(struct sTDP ** sListaT,struct sCiudad ** sListaC,char * nombre)$/;"	f
+fiRouSacarRouterLista	routerBib.c	/^int fiRouSacarRouterLista(struct sRouter ** sListaR,int iSocket)$/;"	f
+fiRouScanfIP	ciudadBib.c	/^fiRouScanfIP(char * ipPuerto, char * ip, int puerto)$/;"	f
+fiRouScanfIP	equipobib.c	/^fiRouScanfIP(char * ipPuerto, char * ip, int puerto)$/;"	f
+fiRouScanfIP	routerBib.c	/^fiRouScanfIP(char * ipPuerto, char * ip, int puerto)$/;"	f
+fvCDEbibAgregarAListaDeEspera	cde.c	/^void fvCDEbibAgregarAListaDeEspera(int iSockfd, int iCantMin,struct listaEsperaCDE** listaEsperaCDE)$/;"	f
+fvCDEbibAsignarTurnoEquipo	cde.c	/^void fvCDEbibAsignarTurnoEquipo(int iSockfd,int iCantEquiUsandoCDE, struct listaEsperaCDE * ipVectorUsando)$/;"	f
+fvCDEbibAsignarTurnoEquipo2	cde.c	/^void fvCDEbibAsignarTurnoEquipo2(int iSockfd,int iCantEquiUsandoCDE, struct listaEsperaCDE * ipVectorUsando, char *cpNombre)$/;"	f
+fvCDEbibSacarDeVector	cde.c	/^void fvCDEbibSacarDeVector (struct listaEsperaCDE * ipVectorUsando, int iPos, int iCantEquiUsandoCDE)$/;"	f
+fvCDEbibSacarDeVectorOLista	cde.c	/^int fvCDEbibSacarDeVectorOLista (struct listaEsperaCDE * ipVectorUsando, int iSockfd, int * iCantEquiUsandoCDE,struct listaEsperaCDE** listaEsperaCDE, int iCantEquiUsanCDE)$/;"	f
+fvCDEbibSacarNodoListaEspera	cde.c	/^void fvCDEbibSacarNodoListaEspera(int iSocket, struct listaEsperaCDE** listaEsperaCDE)$/;"	f
+fvCIUAgregarFIFO	ciudadBib.c	/^void fvCIUAgregarFIFO (struct sEquipoCola **cola, int iSocket)$/;"	f
+fvCIUAgregarFIFOMigracion	ciudadBib.c	/^void fvCIUAgregarFIFOMigracion (struct sMigracion **cola, int iSocket, int iTamanio, char * cpDatos)$/;"	f
+fvCIUEnviarDatosMig	ciudadBib.c	/^int fvCIUEnviarDatosMig(int iSocket, struct sMigracion ** cola)$/;"	f
+fvCiuAnotarPartidos	ciudadBib.c	/^void fvCiuAnotarPartidos (struct sTDP * tabla,char * cpCiudadLocal, char *cpEquipoLocal, char * cpCiudadVisitante,char *cpEquipoVisitante, unsigned char cRdo)$/;"	f
+fvCiuBorrarEquipo	ciudadBib.c	/^void fvCiuBorrarEquipo(struct sEquipo ** equipo)$/;"	f
+fvCiuRecibirDatosEquipo	ciudadBib.c	/^void fvCiuRecibirDatosEquipo (int iSocket, struct sEquipo **lista, fd_set * maestro)$/;"	f
+fvEnviarDatos	routerBib.c	/^void fvEnviarDatos(int iSocket, char * cpIpPuerto)$/;"	f
+fvEquConcatenar	equipobib.c	/^void fvEquConcatenar(char* cpReceptor, char* cpEmisor, int iDesde, int iLargo)$/;"	f
+fvRouEnviarTokenInicial	routerBib.c	/^void fvRouEnviarTokenInicial(struct sRouter * sListaR,char * cpNombreCiudad, char * cpMiIpPuerto)$/;"	f
+fvRouManejarDatos	routerBib.c	/^void fvRouManejarDatos(int iSocket, struct sRouter * sListaR)$/;"	f
+fvRouManejarFound	routerBib.c	/^void fvRouManejarFound(int iSocket,struct sDiscover ** sListaD, char * cpNombreCiu,int iSockCiudad,char * iIdMensaje,char ttl, char hops, int iLargoMensaje)$/;"	f
+fvRouManejarNotFound	routerBib.c	/^void fvRouManejarNotFound(int iSocket,struct sDiscover ** sListaD, char * cpNombreCiu,int iSockCiudad,char * iIdMensaje,char ttl, char hops, int iLargoMensaje)$/;"	f
+fvStdIniciarLogs	logs.c	/^void fvStdIniciarLogs(char *nombreProceso, char *nombreArchivo)$/;"	f
+fvStdLog	logs.c	/^void fvStdLog(char * nombreArchivo, int nroPagina, int tipoLog, char* form, ...)$/;"	f
+fvStdTomarConfiguracion	configuracion.c	/^void fvStdTomarConfiguracion(char *nomarchivo, char *argumento, char **salida)$/;"	f
+handlerSigchild	ciudadBib.c	/^void handlerSigchild(int signum)$/;"	f
+hops	routerBib.h	/^	char hops;$/;"	m	struct:sDiscover
+iCansancio	equipobib.h	/^	int iCansancio;$/;"	m	struct:DatosMigrar
+iDurPartido	equipobib.h	/^	int iDurPartido;$/;"	m	struct:DatosMigrar
+iIdentificador	routerBib.h	/^	char iIdentificador[2];$/;"	m	struct:sDiscover
+iMaxCansancio	equipobib.h	/^	int iMaxCansancio;$/;"	m	struct:DatosMigrar
+iMaxTiempo	equipobib.h	/^	int iMaxTiempo;$/;"	m	struct:DatosMigrar
+iMiPuerto	equipobib.h	/^	int iMiPuerto;$/;"	m	struct:DatosMigrar
+iMinutos	cde.c	/^	int iMinutos;$/;"	m	struct:listaEsperaCDE	file:
+iMinutos	cdeCurs.c	/^	int iMinutos;$/;"	m	struct:listaEsperaCDE	file:
+iPuertoCiudad	equipobib.h	/^	int iPuertoCiudad;$/;"	m	struct:DatosMigrar
+iResultado	equipobib.h	/^	int iResultado;$/;"	m	struct:lLevInt
+iSocket	cde.c	/^	int iSocket;$/;"	m	struct:listaEsperaCDE	file:
+iSocket	cdeCurs.c	/^	int iSocket;$/;"	m	struct:listaEsperaCDE	file:
+iSocket	ciudadBib.h	/^	int iSocket;$/;"	m	struct:sDiscover
+iSocket	ciudadBib.h	/^	int iSocket;$/;"	m	struct:sMigracion
+iSocket	routerBib.h	/^	int iSocket;$/;"	m	struct:sDiscover
+iSocket	routerBib.h	/^	int iSocket;$/;"	m	struct:sRouter
+iTamanioDatos	ciudadBib.h	/^	int iTamanioDatos;$/;"	m	struct:sMigracion
+iTengoDatos	routerBib.h	/^	int iTengoDatos;$/;"	m	struct:sRouter
+iTiempoMaxCansado	equipobib.h	/^	int iTiempoMaxCansado;$/;"	m	struct:DatosMigrar
+iTieneLev	ciudadBib.h	/^	int iTieneLev;$/;"	m	struct:sEquipo
+imprimirCola	cdeCurs.c	/^void imprimirCola(struct listaEsperaCDE *lista)$/;"	f
+imprimirEntrenando	cdeCurs.c	/^void imprimirEntrenando(struct listaEsperaCDE espera[], int cantidad)$/;"	f
+imprimirEquipos	ciudadCurs.c	/^void imprimirEquipos(struct sEquipo* lista)$/;"	f
+imprimirTDP	ciudadCurs.c	/^void imprimirTDP(struct sTDP* tabla)$/;"	f
+init_cde	cdeCurs.c	/^void init_cde(void)$/;"	f
+init_ciudad	ciudadCurs.c	/^void init_ciudad(void)$/;"	f
+init_curses	cdeCurs.c	/^void init_curses(void)$/;"	f
+init_curses	ciudadCurs.c	/^void init_curses(void)$/;"	f
+ip	equipobib.h	/^	unsigned char ip[4];$/;"	m	struct:mjeIpPuerto
+ip	equipobib.h	/^	unsigned char ip[4];$/;"	m	struct:mjeIpPuertoSC
+ipPuerto	ciudadBib.h	/^	int ipPuerto[6];$/;"	m	struct:sEquipo
+ipPuerto	routerBib.h	/^	char ipPuerto[6];	$/;"	m	struct:sCiudad
+itoa	cde.c	/^char* itoa(int n, char* string)$/;"	f
+itoa	equipobib.c	/^char * itoa(int i, char * str)$/;"	f
+itoa	routerBib.c	/^char * itoa(unsigned char i, char * str)$/;"	f
+lLevInt	equipobib.h	/^typedef struct lLevInt$/;"	s
+lLevInt	equipobib.h	/^} lLevInt;$/;"	t
+listaEsperaCDE	cde.c	/^typedef struct listaEsperaCDE$/;"	s	file:
+listaEsperaCDE	cde.c	/^}listaEsperaCDE;$/;"	t	file:
+listaEsperaCDE	cdeCurs.c	/^typedef struct listaEsperaCDE$/;"	s	file:
+listaEsperaCDE	cdeCurs.c	/^}listaEsperaCDE;$/;"	t	file:
+main	cde.c	/^int main (int argc, char *argv[])$/;"	f
+main	ciudad.c	/^int main ( int argc, char *argv[])$/;"	f
+main	equipo.c	/^int main(int argc, char *argv[])$/;"	f
+main	router.c	/^int main(int argc, char * argv[])$/;"	f
+mjeIpPuerto	equipobib.h	/^struct mjeIpPuerto$/;"	s
+mjeIpPuertoSC	equipobib.h	/^struct mjeIpPuertoSC$/;"	s
+mjeTiempo	cde.c	/^struct mjeTiempo $/;"	s	file:
+mjeTiempo	cde.c	/^}mjeTiempo;$/;"	v
+mjeTiempo	equipobib.h	/^struct mjeTiempo $/;"	s
+nombre	cde.c	/^	char * nombre;$/;"	m	struct:listaEsperaCDE	file:
+nombre	cdeCurs.c	/^	char * nombre;$/;"	m	struct:listaEsperaCDE	file:
+nombre	ciudadBib.h	/^	char * nombre;$/;"	m	struct:sDiscover
+nombre	ciudadBib.h	/^	char * nombre;$/;"	m	struct:sEquipo
+nombre	ciudadBib.h	/^	char *nombre;$/;"	m	struct:sTDP
+nombre	routerBib.h	/^	char *nombre;$/;"	m	struct:sCiudad
+nombre	routerBib.h	/^	char *nombre;$/;"	m	struct:sTDP
+nombreCiudad	ciudadBib.h	/^	char * nombreCiudad;$/;"	m	struct:sDiscover
+orden	routerBib.h	/^	char orden;$/;"	m	struct:sCiudad
+pe	ciudadBib.h	/^	int pe;$/;"	m	struct:sTDP
+pe	routerBib.h	/^	int pe;$/;"	m	struct:sTDP
+pg	ciudadBib.h	/^	int pg;$/;"	m	struct:sTDP
+pg	routerBib.h	/^	int pg;$/;"	m	struct:sTDP
+pp	ciudadBib.h	/^	int pp;$/;"	m	struct:sTDP
+pp	routerBib.h	/^	int pp;$/;"	m	struct:sTDP
+printTitle	cdeCurs.c	/^void printTitle(int x, int y, char *titleText)$/;"	f
+printTitle	ciudadCurs.c	/^void printTitle(int x, int y, char *titleText)$/;"	f
+puerto	equipobib.h	/^	int puerto;$/;"	m	struct:mjeIpPuerto
+puerto	equipobib.h	/^	int puerto;$/;"	m	struct:mjeIpPuertoSC
+puntos	ciudadBib.h	/^	int puntos;$/;"	m	struct:sTDP
+puntos	routerBib.h	/^	int puntos;$/;"	m	struct:sTDP
+recvAll	ciudadBib.c	/^int recvAll(int sock, char * buf, int tam, int juanmanuel)$/;"	f
+recvAll	equipobib.c	/^int recvAll(int sock, char * buf, int tam, int juanmanuel)$/;"	f
+recvAll	routerBib.c	/^int recvAll(int sock, char * buf, int tam, int juanmanuel)$/;"	f
+reemplazar	equipobib.c	/^void reemplazar(char* cadena, char orig, char cambiado)$/;"	f
+sCiudad	routerBib.h	/^typedef struct sCiudad$/;"	s
+sCiudad	routerBib.h	/^}sCiudad;$/;"	t
+sDiscover	ciudadBib.h	/^typedef struct sDiscover$/;"	s
+sDiscover	ciudadBib.h	/^}sDiscover;$/;"	t
+sDiscover	routerBib.h	/^typedef struct sDiscover$/;"	s
+sDiscover	routerBib.h	/^}sDiscover;$/;"	t
+sEquipo	ciudadBib.h	/^typedef struct sEquipo$/;"	s
+sEquipo	ciudadBib.h	/^}sEquipo;				\/* ----------  end of struct sEquipo  ---------- *\/$/;"	t
+sEquipoCola	ciudadBib.h	/^typedef struct sEquipoCola$/;"	s
+sEquipoCola	ciudadBib.h	/^}sEquipoCola;				\/* ----------  end of struct sEquipoCola  ---------- *\/$/;"	t
+sMigracion	ciudadBib.h	/^typedef struct sMigracion$/;"	s
+sMigracion	ciudadBib.h	/^}sMigracion;$/;"	t
+sRouter	routerBib.h	/^typedef struct sRouter$/;"	s
+sRouter	routerBib.h	/^}sRouter;$/;"	t
+sTDP	ciudadBib.h	/^typedef struct sTDP$/;"	s
+sTDP	ciudadBib.h	/^}sTDP;$/;"	t
+sTDP	routerBib.h	/^typedef struct sTDP$/;"	s
+sTDP	routerBib.h	/^}sTDP;$/;"	t
+sendall	ciudadBib.c	/^int sendall(int s, char *buf, int len,int iNiBola)$/;"	f
+sendall	equipobib.c	/^int sendall(int s, char *buf, int len)$/;"	f
+sendall	routerBib.c	/^int sendall(int s, char *buf, int len)$/;"	f
+siguiente	cde.c	/^	struct listaEsperaCDE* siguiente;$/;"	m	struct:listaEsperaCDE	file:
+siguiente	cdeCurs.c	/^	struct listaEsperaCDE* siguiente;$/;"	m	struct:listaEsperaCDE	file:
+siguiente	ciudadBib.h	/^	struct sDiscover * siguiente;	$/;"	m	struct:sDiscover
+siguiente	ciudadBib.h	/^	struct sEquipo *siguiente;$/;"	m	struct:sEquipo
+siguiente	ciudadBib.h	/^	struct sEquipoCola * siguiente;$/;"	m	struct:sEquipoCola
+siguiente	ciudadBib.h	/^	struct sMigracion * siguiente;$/;"	m	struct:sMigracion
+siguiente	ciudadBib.h	/^	struct sTDP *siguiente;		$/;"	m	struct:sTDP
+siguiente	equipobib.h	/^	struct lLevInt *siguiente;$/;"	m	struct:lLevInt
+siguiente	routerBib.h	/^	struct sCiudad *siguiente;$/;"	m	struct:sCiudad
+siguiente	routerBib.h	/^	struct sDiscover * siguiente;$/;"	m	struct:sDiscover
+siguiente	routerBib.h	/^	struct sRouter * siguiente;$/;"	m	struct:sRouter
+siguiente	routerBib.h	/^	struct sTDP *siguiente;		$/;"	m	struct:sTDP
+socket	ciudadBib.h	/^	int socket;$/;"	m	struct:sEquipo
+socket	ciudadBib.h	/^	int socket;$/;"	m	struct:sEquipoCola
+tiempo	cde.c	/^	int tiempo;$/;"	m	struct:mjeTiempo	file:
+tiempo	equipobib.h	/^	int tiempo;$/;"	m	struct:mjeTiempo
+tiempo	routerBib.h	/^	time_t tiempo;$/;"	m	struct:sDiscover
+ttl	routerBib.h	/^	char ttl;$/;"	m	struct:sDiscover
+wCola	cdeCurs.c	/^	WINDOW * wCola;$/;"	v
+wEntrenando	cdeCurs.c	/^	WINDOW * wEntrenando;$/;"	v
+wEquipos	ciudadCurs.c	/^WINDOW * wEquipos;$/;"	v
+wSalida	ciudadCurs.c	/^WINDOW * wSalida;$/;"	v
+wTDP	ciudadCurs.c	/^WINDOW * wTDP;$/;"	v
+wclrscr	cdeCurs.c	/^void wclrscr(WINDOW * win)                $/;"	f
+wclrscr	ciudadCurs.c	/^void wclrscr(WINDOW * win)                $/;"	f
